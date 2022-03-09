@@ -1,5 +1,5 @@
 var router = require('express').Router();
-var seasonsController = require('../controllers/seasons');
+var seasonsController = require('../controllers/season');
 
 router.post('/',async(req, res) => {
     const {season} = req.body;

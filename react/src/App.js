@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TaskList from './components/TaskList';
+import TaskList from './components/BdwinnerList';
 import Container from 'react-bootstrap/Container';
 import Login from './components/Login';
-import { login } from './api/authors';
+import { login } from './api/bdwinners';
 import { useState } from 'react';
 import LogOutButton from './components/LogOutButton';
 

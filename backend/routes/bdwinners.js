@@ -1,5 +1,5 @@
 var router = require('express').Router();
-var bdwinnersController = require('../controllers/bdwinners');
+var bdwinnersController = require('../controllers/bdwinner');
 
 var seasonsRouter = require('./seasons');
 

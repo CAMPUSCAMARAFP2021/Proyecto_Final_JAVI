@@ -22,8 +22,10 @@ Una vez hecho todo lo anterior, deberas meterte al backend con el siguiente coma
 docker-compose run backend bash
 Una vez dentro del contenedor agrega el comando para instalar todas las librerias necesarias:
 
+
 npm  i
-Y ya podemos salir del contenedor y ejecutar:
+
+ Y ya podemos salir del contenedor y ejecutar:
 
 docker-compose up
 Esto hara que todos los contenedores incluidos en el archivo docker-compose.yaml se levantaran y la app estará disponible

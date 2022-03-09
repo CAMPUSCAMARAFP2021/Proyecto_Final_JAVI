@@ -15,3 +15,15 @@ Instalar wsl 2
 Installar Ubuntu 20.04
 
 Conectar wsl al Visual Studio Code
+
+#Instalación 🔧
+Una vez hecho todo lo anterior, deberas meterte al backend con el siguiente comando:
+
+docker-compose run backend bash
+Una vez dentro del contenedor agrega el comando para instalar todas las librerias necesarias:
+
+npm  i
+Y ya podemos salir del contenedor y ejecutar:
+
+docker-compose up
+Esto hara que todos los contenedores incluidos en el archivo docker-compose.yaml se levantaran y la app estará disponible

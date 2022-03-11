@@ -1,16 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const Bdwinner = ({bdwinner, onDelete}) =>  
+
+const Season = ({season, onDelete}) =>  
     <Card style={{ width: '18rem' }}>
         <Card.Body>
-            <Card.Title>{bdwinner.name}</Card.Title>
-            <Card.Text>{bdwinner.team}</Card.Text>
-            <Card.Text>{bdwinner.year}</Card.Text>
+            <Card.Title>{season.name}</Card.Title>
+            <Card.Text>{season.year}</Card.Text>
             <Button variant="primary" onClick={onDelete}>Eliminar</Button>
         </Card.Body>
     </Card>
-
+    
     // <div>
     //     <input type="checkbox"></input>
     //     <p className="team">{bdwinner.team}</p>
@@ -18,4 +18,4 @@ const Bdwinner = ({bdwinner, onDelete}) =>
     //     <Button variant="primary" onClick={onDelete}>Eliminar</Button>
     // </div>
 
-export default Bdwinner;
+export default Season;

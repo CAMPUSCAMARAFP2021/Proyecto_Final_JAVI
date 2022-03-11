@@ -10,5 +10,4 @@ const schema = new Schema({
   });
 const Season = model('Season', schema);
 
-module.exports = Season
-;
+module.exports = Season;
